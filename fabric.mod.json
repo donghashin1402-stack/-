@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "fast_eat_mod",
+  "version": "${version}",
+  "name": "Fast Eat Mod",
+  "description": "Changes vanilla food and potion consumption speed.",
+  "authors": ["신동하"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.dongha.fasteat.FastEatMod"]
+  },
+  "mixins": [
+    "fasteat.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
